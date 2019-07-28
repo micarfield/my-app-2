@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/Card';
+import Section from '../components/Section';
 
 const IndexPage = () => (
   <div>
@@ -42,6 +43,7 @@ const IndexPage = () => (
        <Card title="ARKit 2" text="10 sections" image={require('../images/wallpaper4.jpg')} />
       </div>
     </div>
+    <Section />
   </div>
 )
 
